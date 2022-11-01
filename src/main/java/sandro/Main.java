@@ -2,6 +2,7 @@ package sandro;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        PeopleDto p = new PeopleDto(1, "Алексей");
+        System.out.println(p);
     }
 }
